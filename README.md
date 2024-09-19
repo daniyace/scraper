@@ -9,5 +9,6 @@ This is a simple Twitter scraper that uses puppeteer to scrape Twitter data. It 
 
 ## Usage
 
-1. Run `npm run scrape` or `yarn scrape` to scrape the latest tweets of a user
-2. The tweets will be saved in a JSON file named under the folder `tweets`
+1. Run `npm run save-login` or `yarn save-login` to save the login credentials of a user
+2. Run `npm run scrape` or `yarn scrape` to scrape the latest tweets of a user
+3. The tweets will be saved in a JSON file named under the folder `tweets`
